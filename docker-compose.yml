@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+
+    repository:
+        image: docker.bintray.io/jfrog/artifactory-oss:latest
+        ports:
+            - "8081:8081"
